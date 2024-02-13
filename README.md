@@ -28,6 +28,14 @@ When we look at the console, we see that both Child-One and Child-Two components
 
 ---
 
+### When we use React Hooks:
+
+In this example, the child components are the same as before. The key difference is that we’re using signals instead of hooks. If you notice, when we click the “Increment Count” button, there’s no console log in the browser. This means we’ve successfully avoided unnecessary re-rendering using @preact/signals-react.
+
+![react-hooks](public/signal-image.png)
+
+---
+
 ### Useful Links:
 
 [Read more about Signal](https://medium.com/@cdileep40/why-preact-signals-better-than-react-hooks-for-me-151de79c2eeb)
