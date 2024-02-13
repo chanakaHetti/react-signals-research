@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Why Preact Signals Better than React Hooks for Me
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As a React developer for 5 years, I have challenges managing state. React hooks improved the situation, but dealing with nested hooks, manual caching, and complex logic was still a struggle. Then came `@preact/signals-react`, a little-known library that turned my development chaos into a more peaceful and organized experience.
 
-## Available Scripts
+Getting stuck in the world of React hooks had its exciting beginning. The idea of managing the state functionally brought a sense of accomplishment. However, as projects expanded, so did the complications with hooks. Dealing with nested useEffect hooks felt like navigating through dense jungles, conditional rendering logic turned messy, and the constant threat of re-renders impacted performance and sanity.
 
-In the project directory, you can run:
+I discovered `@preact/signals-react`, and at first, it appeared almost too good to be true. “Managing state without hooks? Can that really work?” However, as I explored further, a feeling of relief came over me. It wasn’t some magic trick; it was a whole new way of doing things, centered around reactive data streams known as `@preact/signals-react`.
 
-### `npm start`
+### Here’s what blew me away:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Performance optimization**: `@preact/signals-react` helps reduce unnecessary re-renders of components, which leads to faster app loading, smoother interactions, and better overall.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Simplified State Management**: In small to large-sized apps, `@preact/signals-react` can often replace more complex state management libraries, making your code easier to understand and maintain.
 
-### `npm test`
+**Improve code organization**: `@preact/signals-react` keeps track of data changes clearly and predictably, making our code more organized and less prone to error.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Useful Links:
 
-### `npm run build`
+[Read more about my Post](https://medium.com/@cdileep40/why-preact-signals-better-than-react-hooks-for-me-151de79c2eeb).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding :)
