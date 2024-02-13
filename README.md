@@ -18,6 +18,6 @@ I discovered `@preact/signals-react`, and at first, it appeared almost too good 
 
 ### Useful Links:
 
-[Read more about my Post](https://medium.com/@cdileep40/why-preact-signals-better-than-react-hooks-for-me-151de79c2eeb).
+[Read more about my Post](https://medium.com/@cdileep40/why-preact-signals-better-than-react-hooks-for-me-151de79c2eeb)
 
 Happy coding :)
