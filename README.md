@@ -4,7 +4,7 @@ As a React developer for 5 years, I have challenges managing state. React hooks 
 
 ![preact-signal](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*oVLcnIToUYYTDH6cbUGLFw.png)
 
-![react-hooks](public\hooks-image.png)
+![react-hooks](public/hooks-image.png)
 
 Getting stuck in the world of React hooks had its exciting beginning. The idea of managing the state functionally brought a sense of accomplishment. However, as projects expanded, so did the complications with hooks. Dealing with nested useEffect hooks felt like navigating through dense jungles, conditional rendering logic turned messy, and the constant threat of re-renders impacted performance and sanity.
 
