@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
+import { signal } from '@preact/signals-react';
 
 import ChildOne from './child-one';
 import ChildTwo from './child-two';
 
+const count = signal(0);
+
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   const incrementCount = () => {
-    setCount(count + 1);
+    // setCount(count + 1);
+    count.value += 1;
   };
 
   return (
