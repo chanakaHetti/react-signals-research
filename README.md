@@ -8,6 +8,8 @@ Getting stuck in the world of React hooks had its exciting beginning. The idea o
 
 I discovered `@preact/signals-react`, and at first, it appeared almost too good to be true. “Managing state without hooks? Can that really work?” However, as I explored further, a feeling of relief came over me. It wasn’t some magic trick; it was a whole new way of doing things, centered around reactive data streams known as `@preact/signals-react`.
 
+---
+
 ### Here’s what blew me away:
 
 **Performance optimization**: `@preact/signals-react` helps reduce unnecessary re-renders of components, which leads to faster app loading, smoother interactions, and better overall.
@@ -16,11 +18,15 @@ I discovered `@preact/signals-react`, and at first, it appeared almost too good 
 
 **Improve code organization**: `@preact/signals-react` keeps track of data changes clearly and predictably, making our code more organized and less prone to error.
 
+---
+
 ### When we use React Hooks:
 
 When we look at the console, we see that both Child-One and Child-Two components re-render every time we click the ‘Increment Count’ button. Based on the logic, the re-rendering of Child-Two each time is unnecessary.
 
 ![react-hooks](public/hooks-image.png)
+
+---
 
 ### Useful Links:
 
